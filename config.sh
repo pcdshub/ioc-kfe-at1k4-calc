@@ -22,7 +22,7 @@ export PYTHON_VERSION=3.7
 export IOC=ioc-kfe-at1k4-calc
 
 # IOC startup command
-export IOC_COMMAND="ioc-kfe-at1k4-calc --list-pvs --production"
+export IOC_COMMAND="ioc-kfe-at1k4-calc --list-pvs --production --autosave_path=/reg/d/iocData/ioc-kfe-at1k4-calc/iocInfo/autosave.json"
 
 # IOC PV prefix.
 export PREFIX=AT1K4:CALC
