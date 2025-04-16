@@ -1,0 +1,31 @@
+# default group
+* @pcdshub/xbd-members
+
+# language-specific group(s)
+## EPICS files
+*.archive @pcdshub/epics-reviewers @pcdshub/xbd-members
+*.autosave @pcdshub/epics-reviewers @pcdshub/xbd-members
+*.cmd @pcdshub/epics-reviewers @pcdshub/xbd-members
+*.db @pcdshub/epics-reviewers @pcdshub/xbd-members
+*.dbd @pcdshub/epics-reviewers @pcdshub/xbd-members
+*.edl @pcdshub/epics-reviewers @pcdshub/xbd-members
+*.ioc @pcdshub/epics-reviewers @pcdshub/xbd-members
+*.proto @pcdshub/epics-reviewers @pcdshub/xbd-members
+*.req @pcdshub/epics-reviewers @pcdshub/xbd-members
+*.sub-arch @pcdshub/epics-reviewers @pcdshub/xbd-members
+*.sub-req @pcdshub/epics-reviewers @pcdshub/xbd-members
+*.substitutions @pcdshub/epics-reviewers @pcdshub/xbd-members
+*.tpl-arch @pcdshub/epics-reviewers @pcdshub/xbd-members
+*.tpl-req @pcdshub/epics-reviewers @pcdshub/xbd-members
+RELEASE_SITE @pcdshub/epics-reviewers @pcdshub/xbd-members
+/configure/RELEASE @pcdshub/epics-reviewers @pcdshub/xbd-members
+## PYTHON files
+*.py @pcdshub/python-reviewers @pcdshub/xbd-members
+*.pyi @pcdshub/python-reviewers @pcdshub/xbd-members
+*.pyc @pcdshub/python-reviewers @pcdshub/xbd-members
+*.pyw @pcdshub/python-reviewers @pcdshub/xbd-members
+*.pyx @pcdshub/python-reviewers @pcdshub/xbd-members
+*.pyd @pcdshub/python-reviewers @pcdshub/xbd-members
+
+# github folder holds administrative files
+.github/** @pcdshub/software-admin
